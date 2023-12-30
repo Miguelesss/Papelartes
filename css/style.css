@@ -7,8 +7,17 @@ header {
     padding: 10px;
 }
 
+#options {
+    float:left;
+}
+
+#menu-icon {
+    width: 10vw;
+}
+
 #logo > img {
-    width: 15vw; 
+    width: 10vw; 
+    color: gray;
 }
 
 #logo > h1 {
