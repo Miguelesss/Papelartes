@@ -4,32 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./javascript/script.js"></script>
     <title>Papelartes</title>
 </head>
 <body>
     <header>
         <section id="content-left">
             <img id="logo" src="./assets/tesoura.svg" alt="ícone de tesoura">
-            <!-- <h1>Papelartes</h1> -->
         </section>
         <section id="content-right">
-            <button id="options">
-                <img id="menu-icon" src="./assets/menu.svg" alt="ícone de menu de opções">
-            </button>
+            <div id="options">
+                <img onclick="opMenu()" id="menu-icon" src="./assets/menu.svg" alt="ícone de menu de opções">
+            </div>
             <div>
                 <img id="search" src="./assets/search.svg" alt="ícone de pesquisa">
             </div>
         </section>
     </header>
-    <menu>
+    <menu id="menu-mb">
+        <img onclick="clMenu()" id="arrow-back" src="./assets/arrow.svg" alt="SETA PARA VOLTAR">
         <div class="option">
-            Decorações personalizadas
+            Agendas e Cadernos
         </div>
         <div class="option">
-            Seu espaço
+            Itens de escrita
         </div>
         <div class="option">
-            Suporte
+            Itens de decoração
         </div>
     </menu>
     <main>
